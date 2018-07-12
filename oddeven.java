@@ -7,9 +7,12 @@ public class abc_evenorodd {
        if(a%2==0){
            System.out.println("the even number");
        }
-       else{
+       if(a%2==1)
+       {
            System.out.println("the odd number");
        }
+    else{
+      System.out.println("Invalid");
   }
 }
-
+}
