@@ -2,18 +2,15 @@
     {
         char ch;
         Scanner scan = new Scanner(System.in);
-		
-        System.out.print("Enter an Alphabet : ");
         ch = scan.next().charAt(0);
 		
-        if(ch=='a' || ch=='e' ||ch=='i' || ch=='o' ||
-        ch=='u')
+        if(ch=='A' || ch=='a' || ch=='E' || ch=='e' ||ch=='I' || ch=='i' || ch=='O' || ch=='o' || ch=='U' ||ch=='u')
         {
-            System.out.print("This is a Vowel");
+            System.out.println("This is a Vowel");
         }
         else
         {
-            System.out.print("Invalid");
+            System.out.println("Invalid");
         }
     }
 }
