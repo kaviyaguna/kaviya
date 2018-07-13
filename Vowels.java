@@ -2,7 +2,7 @@
     {
         char ch;
         Scanner scan = new Scanner(System.in);
-        ch = scan.next().charAt(0);
+        ch=scan.next().charAt(0);
 		
         if(ch=='A' || ch=='a' || ch=='E' || ch=='e' ||ch=='I' || ch=='i' || ch=='O' || ch=='o' || ch=='U' ||ch=='u')
         {
