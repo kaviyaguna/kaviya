@@ -9,8 +9,8 @@ public static void main(String args[]){
 		   n=n/10;    
 		  }    
 		  if(temp==sum)  {  
-		   System.out.println("palindrome number ");    
+		   System.out.println("palindrome yes ");    
 		  else    
-		   System.out.println("not palindrome");    
+		   System.out.println("palindrome no");    
 		}  
 		}  
