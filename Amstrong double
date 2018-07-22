@@ -1,23 +1,11 @@
-import java.util.Scanner;
-public class Amstrong double {
-	    public static void main(String[] args) 
-	    {
-	       int n, count = 0, a, b, c, sum = 0;
-	       System.out.print("Armstrong numbers from 1 to 500:");
-	       for(int i = 1; i <= 500; i++)
-	       {
-	           n = i;
-	           while(n > 0)
-	           {
-	               b = n % 10;
-	               sum = sum + (b * b * b);
-	               n = n / 10;
-	           }
-	           if(sum == i)
-	           {
-	               System.out.print(i+" ");
-	           }
-	           sum = 0;
-	       }
-	}
-}
+a=int(input())
+    b=int(input())
+    for i in range(a+1,b+1):
+        temp=i
+        su=0
+        while(temp>0):
+            r=temp%10
+            su+=r**3
+            temp//=10
+        if(i==su):
+print(i)
